@@ -1,0 +1,54 @@
+Information
+===========
+
+This is the PASCAL3D+ benchmark [1] for 3D object detection and pose estimation.
+We augments 12 rigid categories of the PASCAL VOC 2012 [2] with 3D annotations.
+Furthermore, more images are added to each category from ImageNet [3].
+The annotations are in the .mat format of MATLAB.
+
+For questions concerning the benchmark, please contact Yu Xiang at
+<yuxiang AT umich DOT edu>.
+
+This project has been supported by ONR grant N00014-13-1-0761 and NFS CAREER
+grant #1054127.
+
+
+References
+==========
+
+[1] Y. Xiang, R. Mottaghi, and S. Savarese.
+Beyond PASCAL: A benchmark for 3D detection in the Wild. In WACV, 2014.
+
+[2] M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, and A. Zisserman.
+The pascal visual object classes (voc) challenge. IJCV, 2010.
+
+[3] J. Deng, W. Dong, R. Socher, L. Li, K. Li, and L. Fei-Fei.
+Imagenet: A large scale hierarchical image database. In CVPR, 2009.
+
+
+How to Cite
+===========
+
+@InProceedings{xiang_wacv14,
+  author       = {Yu Xiang and Roozbeh Mottaghi and Silvio Savarese},
+  title        = {Beyond PASCAL: A Benchmark for 3D Object Detection in the Wild},
+  booktitle    = {IEEE Winter Conference on Applications of Computer Vision (WACV)},
+  year         = {2014},
+}
+
+
+Basic Usage
+===========
+
+There are four directories in this package:
+
+1. Annotations. The augmented PASCAL annotations for the 12 categories.
+2. Annotation_tool. The annotation tool for 3D annotation, and some scripts to visualize the annotations.
+                    The scripts are helpful to understand the format of the annotation.
+3. CAD. The CAD models used in the annotations.
+4. Images. The PASCAL images in the 12 categories.
+
+
+About this Release
+==================
+The current release only contains images from PASCAL VOC 2012. The ImageNet part will be released soon.
